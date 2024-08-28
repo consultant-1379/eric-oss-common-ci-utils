@@ -1,0 +1,39 @@
+#
+# COPYRIGHT Ericsson 2024
+#
+#
+#
+# The copyright to the computer program(s) herein is the property of
+#
+# Ericsson Inc. The programs may be used and/or copied only with written
+#
+# permission from Ericsson Inc. or in accordance with the terms and
+#
+# conditions stipulated in the agreement/contract under which the
+#
+# program(s) have been supplied.
+#
+
+site_name: Hummingbirds Documentation
+site_description: Hummingbirds Documentation
+docs_dir: hb_docs
+
+nav:
+  - Home: index.md
+  - NM Hybrid MS CI pipeline:
+    - 1. Overview: overview.md
+    - 2. Golden Stages:
+        - Java Spring Boot: java_spring_boot_golden_stages.md
+        - Go Language: go_golden_stages.md
+        - Other Language: other_language_golden_stages.md
+    - 3. Custom Stages: custom_stages.md
+    - 4. Working with Hybrid MS CI Pipeline-Hands on: working_with_hybrid_ms_ci_pipeline_hands_on.md
+    - 5. Common MS CI Pipeline Issues: common_ms_ci_pipeline_issues.md
+    - 6. Key files of the Hybrid solution: key_files_of_the_hybrid_ms_ci_pipeline_solution.md
+
+plugins:
+  - techdocs-core
+
+markdown_extensions:
+  - pymdownx.snippets:
+      check_paths: true

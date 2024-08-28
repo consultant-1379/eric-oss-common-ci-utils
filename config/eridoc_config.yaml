@@ -1,0 +1,27 @@
+#
+# COPYRIGHT Ericsson 2024
+#
+#
+#
+# The copyright to the computer program(s) herein is the property of
+#
+# Ericsson Inc. The programs may be used and/or copied only with written
+#
+# permission from Ericsson Inc. or in accordance with the terms and
+#
+# conditions stipulated in the agreement/contract under which the
+#
+# program(s) have been supplied.
+#
+
+repository: eridoca
+documents:
+  - title: "Hummingbirds - User Guide"
+    folderId: 0b004cffcff6b79d
+    file: "../build/eridoc/User_Guide/User_Guide.pdf"
+    decimal-class: "1553"
+    individual-number: "APR 201 0234"
+    eri_document_type: "User Guide"
+    lang: "en"
+    format: "pdf"
+    strategy: "latest"

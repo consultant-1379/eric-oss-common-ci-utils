@@ -1,0 +1,65 @@
+#
+# COPYRIGHT Ericsson 2024
+#
+#
+#
+# The copyright to the computer program(s) herein is the property of
+#
+# Ericsson Inc. The programs may be used and/or copied only with written
+#
+# permission from Ericsson Inc. or in accordance with the terms and
+#
+# conditions stipulated in the agreement/contract under which the
+#
+# program(s) have been supplied.
+#
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: eric-oss-common-ci-utils
+  title: Hummingbirds CI Utils
+  description: "Team Hummingbirds is part of the NM DG Base platform within the EIC product structure and provides Microservice CI pipelines and technical support to design teams in the Aeonic program. In this space, you can access information on Hummingbirds' User Guides, Contact information, Open Bugs, Support tickets, New project creation requests, Quarterly commitments and JIRA templates."
+  annotations:
+    backstage.io/source-location: url:https://gerrit-gamma.gic.ericsson.se/plugins/gitiles/OSS/com.ericsson.oss.ci/eric-oss-common-ci-utils
+    backstage.io/techdocs-ref: dir:.
+    sonarqube.org/project-key: com.ericsson.oss.ci:eric-oss-common-ci-utils
+    jira.com/project-keys: IDUN
+    jira.com/filter-ids: "227577,224558,260506,260269,260268"
+    overview/bug-filter: "224558"
+    overview/bug-template: https://eteamproject.internal.ericsson.com/browse/IDUN-13402
+    overview/support-filter: "227577"
+    overview/support-template: https://eteamproject.internal.ericsson.com/browse/IDUN-13402
+    overview/teams-channel: https://teams.microsoft.com/l/team/19%3aQJE7LXJ3CXEJmeDi0Oilsso2_XoR_p2ckR_bDSqMw5g1%40thread.tacv2/conversations?groupId=64c2ff2c-764b-489d-a034-220d1abc8e00&tenantId=92e84ceb-fbfd-47ab-be52-080c6b87953f
+    gerrit/component: OSS/com.ericsson.oss.ci/eric-oss-common-ci-utils
+    jenkins:
+      fem3s11-eiffel216.eiffel.gic.ericsson.se:8443/eric-oss-common-ci-utils_PreCodeReview_Hybrid/,
+      fem3s11-eiffel216.eiffel.gic.ericsson.se:8443/eric-oss-common-ci-utils_Publish_Hybrid/
+  links:
+    - url: https://eteamspace.internal.ericsson.com/display/DGBase/The+Hummingbirds
+      title: Hummingbirds Confluence
+      icon: dashboard
+    - url: https://eteamproject.internal.ericsson.com/browse/IDUN-13404
+      title: New Project Request JIRA Template
+      icon: dashboard
+  tags:
+    - ericsson-intelligent-controller
+    - continuous-integration
+  roles:
+    line-manager: ejoegaf
+    project-manager: eshrpal
+    microservice-architect: edanicu
+    lead-product-owner: emsjiac
+    product-owner: eruagar
+    scrum-master: etopemi
+    test-expert: zboojay
+    security-master: edhahim
+  approval:
+    date: 23-05-2024
+    approver: etopemi
+spec:
+  system: production
+  lifecycle: production
+  owner: TheHummingbirds
+  type: microservice
+
